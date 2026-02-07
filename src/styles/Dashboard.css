@@ -1,0 +1,20 @@
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+.level-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.level-card.locked {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.reset-btn {
+  margin-top: 20px;
+}
